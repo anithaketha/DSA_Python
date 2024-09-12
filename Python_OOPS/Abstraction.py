@@ -10,5 +10,5 @@ class Student(College):
     def print_Details(self):
         print("Name : ",self.name)
         print("Age : ",self.age)
-stu1=Audi("Anitha",19)
+stu1=Student("Anitha",19)
 stu1.print_Details()
